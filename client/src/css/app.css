@@ -1,0 +1,165 @@
+/* Estilos generales */
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #86c6cc; /* Fondo oscuro */
+    color: #ecf0f1; /* Texto claro */
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #7b3a9b; /* Fondo oscuro */
+}
+
+.main-content {
+    flex: 1;
+    background-color: #c2cbd3; /* Fondo oscuro */
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #151616; /* Fondo oscuro */
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .navbar-nav .nav-item {
+    margin-left: 20px; /* Espacio entre los enlaces */
+}
+
+/* Ajustes para el buscador */
+.navbar .buscador-form {
+    flex-grow: 1;
+    max-width: 300px; /* Tamaño máximo del buscador */
+    margin-left: auto; /* Alinea el buscador a la derecha */
+}
+
+.buscador-form .form-control {
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.buscador-form .btn-primary {
+    font-size: 1.1rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.buscador-form .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Ajustes para el botón de cerrar sesión */
+.navbar .logout-button {
+    margin-left: 20px; /* Espacio adicional entre el botón de cerrar sesión y el buscador */
+}
+
+/* Estilos para el Header */
+.header {
+    background-color: #151616; /* Fondo oscuro para el Header */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los Botones */
+.btn-custom {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para las Tarjetas */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-img-top {
+    border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+    padding: 1rem;
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+
+/* Estilos para la Página de Detalles */
+.detalle-page {
+    padding: 2rem;
+    background-color: #34495e; /* Fondo oscuro para la página de detalles */
+}
+
+.detalle-content {
+    max-width: 800px;
+    margin: auto;
+    background-color: #2c3e50;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para Formularios */
+.form-container {
+    max-width: 500px;
+    width: 50%;
+    margin: auto;
+    padding: 3rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #34495e; /* Fondo oscuro */
+    color: #ecf0f1;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+/* Estilos para Mensajes y Notificaciones */
+.alert {
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert-error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
